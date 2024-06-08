@@ -1,0 +1,154 @@
+body {
+    font-family: inter;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+header {
+    width: 1300px;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px;
+    background: white;
+    font-size: 20px;
+ 
+}
+.logo {
+    height: 30px;
+    width: 113px;
+    padding: 25px;
+    font-family : Inter;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.head {
+    width: 733px;
+    height: 30px;
+    font-size: 32px;
+    padding: 35px;
+    font-family: Inter;
+    text-align: left;
+}
+.subhead {
+    padding: 35px;
+    width: 733px;
+    height: 85px;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.hero img {
+    height: 650px;
+    width: 1281px;
+    left: 80px;
+    top: 497px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 1281px;
+    height: 300px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+button {
+    border-radius: 8px 8px 8px 8px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.related-articles {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.related-articles .article {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+}
+
+.related-articles .article img {
+    width: 610px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.related-posts {
+    background-color: white;
+    text-align: center;
+}
+
+.related-posts h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.related-posts .post {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.related-posts .post img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 0px;
+    text-align: left;
+    display: inline;
+}
+
+.footer-links {
+   display: flex;
+    justify-content: right;
+    gap: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-links div {
+    text-align: center;
+}
+
+.footer-links a {
+    color: black;
+    display: block;
+    margin: 30px 40px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.social-icons a {
+    margin: 0px 40px;
+}
